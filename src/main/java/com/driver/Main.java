@@ -5,11 +5,13 @@ public class Main {
     public static void main(String[] args){
 
         Product p = new Product();
-        Product ans = new Product();
-        Product ans2 = new Product();
+
+        int ans = p.product(10,20);
+        int ans2 = p.product(33,45,67);
+        double ans3 = p.product(21.5,45.0);
 
     }
-    public static class Product() {
+    public static class Product {
 
         public int product(int x, int y) {
             return x*y;
